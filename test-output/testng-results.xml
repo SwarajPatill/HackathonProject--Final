@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T18:35:09 IST" name="Suite" finished-at="2024-02-28T18:35:59 IST" duration-ms="49767">
+    <groups>
+      <group name="smoke">
+        <method signature="TC_001_BikeDetails.Verify_WebPage()[pri:0, instance:TestCases.TC_001_BikeDetails@1ed6388a]" name="Verify_WebPage" class="TestCases.TC_001_BikeDetails"/>
+        <method signature="TC_002_UsedCarsDetails.Verify_WebPage()[pri:2, instance:TestCases.TC_002_UsedCarsDetails@5d534f5d]" name="Verify_WebPage" class="TestCases.TC_002_UsedCarsDetails"/>
+        <method signature="TC_003_LoginPage.Verify_WebPage()[pri:5, instance:TestCases.TC_003_LoginPage@2e3967ea]" name="Verify_WebPage" class="TestCases.TC_003_LoginPage"/>
+        <method signature="TC_003_LoginPage.verify_Login()[pri:6, instance:TestCases.TC_003_LoginPage@2e3967ea]" name="verify_Login" class="TestCases.TC_003_LoginPage"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TC_001_BikeDetails.Verify_BikeDetails()[pri:1, instance:TestCases.TC_001_BikeDetails@1ed6388a]" name="Verify_BikeDetails" class="TestCases.TC_001_BikeDetails"/>
+        <method signature="TC_002_UsedCarsDetails.Verify_UsedCarsDetails()[pri:3, instance:TestCases.TC_002_UsedCarsDetails@5d534f5d]" name="Verify_UsedCarsDetails" class="TestCases.TC_002_UsedCarsDetails"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC_001_BikeDetails.Verify_WebPage()[pri:0, instance:TestCases.TC_001_BikeDetails@1ed6388a]" name="Verify_WebPage" class="TestCases.TC_001_BikeDetails"/>
+        <method signature="TC_001_BikeDetails.Verify_BikeDetails()[pri:1, instance:TestCases.TC_001_BikeDetails@1ed6388a]" name="Verify_BikeDetails" class="TestCases.TC_001_BikeDetails"/>
+        <method signature="TC_002_UsedCarsDetails.Verify_WebPage()[pri:2, instance:TestCases.TC_002_UsedCarsDetails@5d534f5d]" name="Verify_WebPage" class="TestCases.TC_002_UsedCarsDetails"/>
+        <method signature="TC_002_UsedCarsDetails.Verify_UsedCarsDetails()[pri:3, instance:TestCases.TC_002_UsedCarsDetails@5d534f5d]" name="Verify_UsedCarsDetails" class="TestCases.TC_002_UsedCarsDetails"/>
+        <method signature="TC_003_LoginPage.Verify_WebPage()[pri:5, instance:TestCases.TC_003_LoginPage@2e3967ea]" name="Verify_WebPage" class="TestCases.TC_003_LoginPage"/>
+        <method signature="TC_003_LoginPage.verify_Login()[pri:6, instance:TestCases.TC_003_LoginPage@2e3967ea]" name="verify_Login" class="TestCases.TC_003_LoginPage"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-02-28T18:35:09 IST" name="chromeTest" finished-at="2024-02-28T18:35:59 IST" duration-ms="49767">
+      <class name="TestCases.TC_002_UsedCarsDetails">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_002_UsedCarsDetails@5d534f5d]" started-at="2024-02-28T18:35:25 IST" name="setup" finished-at="2024-02-28T18:35:33 IST" duration-ms="7976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_WebPage()[pri:2, instance:TestCases.TC_002_UsedCarsDetails@5d534f5d]" started-at="2024-02-28T18:35:33 IST" name="Verify_WebPage" finished-at="2024-02-28T18:35:33 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_WebPage -->
+        <test-method signature="Verify_UsedCarsDetails()[pri:3, instance:TestCases.TC_002_UsedCarsDetails@5d534f5d]" started-at="2024-02-28T18:35:33 IST" name="Verify_UsedCarsDetails" finished-at="2024-02-28T18:35:41 IST" depends-on-methods="TestCases.TC_002_UsedCarsDetails.Verify_WebPage" duration-ms="7300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_UsedCarsDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_002_UsedCarsDetails@5d534f5d]" started-at="2024-02-28T18:35:41 IST" name="tearDown" finished-at="2024-02-28T18:35:42 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_002_UsedCarsDetails -->
+      <class name="TestCases.TC_001_BikeDetails">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_001_BikeDetails@1ed6388a]" started-at="2024-02-28T18:35:09 IST" name="setup" finished-at="2024-02-28T18:35:22 IST" duration-ms="12855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_WebPage()[pri:0, instance:TestCases.TC_001_BikeDetails@1ed6388a]" started-at="2024-02-28T18:35:22 IST" name="Verify_WebPage" finished-at="2024-02-28T18:35:22 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_WebPage -->
+        <test-method signature="Verify_BikeDetails()[pri:1, instance:TestCases.TC_001_BikeDetails@1ed6388a]" started-at="2024-02-28T18:35:23 IST" name="Verify_BikeDetails" finished-at="2024-02-28T18:35:24 IST" depends-on-methods="TestCases.TC_001_BikeDetails.Verify_WebPage" duration-ms="1271" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span onclick="goToUrl('/upcoming-bikes')">...</span> is not clickable at point (410, 220). Other element would receive the click: <a class="sub-n " href="/newbikes/best-bikes-in-india">...</a>
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1243c7a2be846d8447152aaf018d60a7, clickElement {id=F487A2E89C67E24C3A17A23751ACBCA5_element_119}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63887}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63887/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1243c7a2be846d8447152aaf018d60a7)] -> xpath: //span[@onclick="goToUrl('/upcoming-bikes')"]]
+Session ID: 1243c7a2be846d8447152aaf018d60a7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span onclick="goToUrl('/upcoming-bikes')">...</span> is not clickable at point (410, 220). Other element would receive the click: <a class="sub-n " href="/newbikes/best-bikes-in-india">...</a>
+  (Session info: chrome=120.0.6099.130)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1243c7a2be846d8447152aaf018d60a7, clickElement {id=F487A2E89C67E24C3A17A23751ACBCA5_element_119}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.130, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63887}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63887/devtoo..., se:cdpVersion: 120.0.6099.130, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1243c7a2be846d8447152aaf018d60a7)] -> xpath: //span[@onclick="goToUrl('/upcoming-bikes')"]]
+Session ID: 1243c7a2be846d8447152aaf018d60a7
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy49.click(Unknown Source)
+at PageObjects.BikeDetails.clickNewBikes(BikeDetails.java:73)
+at TestCases.TC_001_BikeDetails.Verify_BikeDetails(TC_001_BikeDetails.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_BikeDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_001_BikeDetails@1ed6388a]" started-at="2024-02-28T18:35:24 IST" name="tearDown" finished-at="2024-02-28T18:35:25 IST" duration-ms="1070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_001_BikeDetails -->
+      <class name="TestCases.TC_003_LoginPage">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TC_003_LoginPage@2e3967ea]" started-at="2024-02-28T18:35:42 IST" name="setup" finished-at="2024-02-28T18:35:49 IST" duration-ms="7406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_WebPage()[pri:5, instance:TestCases.TC_003_LoginPage@2e3967ea]" started-at="2024-02-28T18:35:49 IST" name="Verify_WebPage" finished-at="2024-02-28T18:35:49 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_WebPage -->
+        <test-method signature="verify_Login()[pri:6, instance:TestCases.TC_003_LoginPage@2e3967ea]" started-at="2024-02-28T18:35:50 IST" name="verify_Login" finished-at="2024-02-28T18:35:57 IST" depends-on-methods="TestCases.TC_003_LoginPage.Verify_WebPage" duration-ms="7725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TC_003_LoginPage@2e3967ea]" started-at="2024-02-28T18:35:58 IST" name="tearDown" finished-at="2024-02-28T18:35:59 IST" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_003_LoginPage -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

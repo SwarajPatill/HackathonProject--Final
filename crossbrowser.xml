@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hackthon Project" thread-count="5" parallel="tests">
+ <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  
+  <test thread-count="5" name="chromeTest">
+  <parameter name="browser" value="chrome"/>
+    <parameter name="os" value="windows"/>
+
+    <classes>
+      <class name="TestCases.TC_001_BikeDetails"/>
+      <class name="TestCases.TC_002_UsedCarsDetails"/>
+      <class name="TestCases.TC_003_LoginPage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  thread-count="5" name="edgeTest">
+  <parameter name="browser" value="edge"/>
+    <parameter name="os" value="windows"/>
+
+    <classes>
+       <class name="TestCases.TC_001_BikeDetails"/>
+      <class name="TestCases.TC_002_UsedCarsDetails"/>
+      <class name="TestCases.TC_003_LoginPage"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
